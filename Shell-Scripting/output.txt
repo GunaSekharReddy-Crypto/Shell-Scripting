@@ -1,0 +1,2 @@
+Filesystem                                    Size  Used Avail Use% Mounted on
+C:/Users/mgunasek/AppData/Local/Programs/Git  475G  222G  254G  47% /
