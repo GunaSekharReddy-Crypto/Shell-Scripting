@@ -48,8 +48,10 @@ fi
 FILES= find -name "*.log" $SOURCE
 
 if [ -n $FILES ]; then
-    tar -xvzf $FILES tar.zip
-
+    cp -r $SOURCE_DIR/$FILES $DEST_DIR
+    pwd
+    rm -rf $SOURCE_DIR
+    
 fi
 
 
